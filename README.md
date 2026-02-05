@@ -1,6 +1,7 @@
 # React Task Manager 📝
 
 A modern, responsive, and persistent To-Do application built with **React** and **Vite**. This project demonstrates full **CRUD** (Create, Read, Update, Delete) functionality, state management, and local storage integration.
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://soumyarananpradhan.github.io/To-Do-App/)
 
 ## 🚀 Features
 
