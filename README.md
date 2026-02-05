@@ -1,16 +1,65 @@
-# React + Vite
+# React Task Manager 📝
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and persistent To-Do application built with **React** and **Vite**. This project demonstrates full **CRUD** (Create, Read, Update, Delete) functionality, state management, and local storage integration.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Add Tasks:** Quickly add new tasks to your list.
+* **Edit Tasks:** Fix typos or update details with inline editing.
+* **Filter Views:** Toggle between **All**, **Active**, and **Completed** tasks.
+* **Persistent Storage:** Data is saved to the browser's Local Storage, so you never lose your tasks on refresh.
+* **Responsive Design:** Styled with Tailwind CSS for a clean look on mobile and desktop.
+* **Delete & Complete:** Easily remove items or mark them as done.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Frontend Library:** React.js (Hooks: `useState`, `useEffect`)
+* **Build Tool:** Vite
+* **Styling:** Tailwind CSS
+* **Language:** JavaScript (ES6+)
 
-## Expanding the ESLint configuration
+## ⚙️ Installation & Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Follow these steps to run the project locally on your machine.
+
+1.  **Clone the repository**
+    ```bash
+    git clone [https://github.com/your-username/react-todo-app.git](https://github.com/your-username/react-todo-app.git)
+    cd react-todo-app
+    ```
+
+2.  **Install Dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Run the Development Server**
+    ```bash
+    npm run dev
+    ```
+
+4.  **Open in Browser**
+    Visit `http://localhost:5173` to see the app in action.
+
+## 📂 Project Structure
+
+```text
+src/
+├── components/
+│   ├── TodoForm.jsx    # Input field logic
+│   ├── TodoList.jsx    # List rendering and filtering props
+│   └── TodoItem.jsx    # Individual task item (Edit/Delete/Toggle)
+├── App.jsx             # Main state management and Local Storage logic
+├── main.jsx            # Entry point
+└── index.css           # Tailwind imports
+🔮 Future Improvements
+Dark Mode: Add a toggle for dark/light themes.
+
+Drag & Drop: Allow reordering of tasks.
+
+Backend Integration: Connect to a Python (Django/FastAPI) backend for a full-stack experience.
+
+🤝 Contributing
+Contributions are welcome! Feel free to fork the repo and submit a pull request.
+
+Built with ❤️ by Soumyaranjan Pradhan
